@@ -1,0 +1,54 @@
+
+body
+{
+    text-align: center;
+}
+#board
+{
+    width:320px;
+height: 300px;
+background-color: 	#005b96;
+border:6px solid 	#011f4b;
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+
+}
+.tile
+{
+    height: 31px;
+    width:31px;
+    border-radius: 50%;
+    margin:2px;
+    background-color: white;
+    border:5px solid 	#011f4b;
+}
+.redPiece
+{
+    background-color: red;
+}
+.yellowpiece
+{
+    background-color: yellow;
+}
+
+#header
+{
+    color: 	#324B58;
+}
+@media screen and (min-width: 760px)
+{
+    #board
+    {
+    width:630px;
+    height: 540px;
+    margin-bottom: 30px;
+    }
+    .tile
+{
+    height: 70px;
+    width:70px;
+    margin:5px;
+
+}
+}
